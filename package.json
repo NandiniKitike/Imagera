@@ -6,9 +6,8 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "npm install --legacy-peer-deps && next build"
+    "build": "next build"
   },
-  ".npmrc": "legacy-peer-deps=true",
   "dependencies": {
     "@clerk/nextjs": "^4.29.6",
     "@hookform/resolvers": "^3.3.4",
